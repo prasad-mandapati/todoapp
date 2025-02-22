@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <input type="text" name="task" id="task" placeholder="Enter Task...." />
+        <button type="button" class="btn" id="add-btn">Add Task</button>
+        <button type="button" class="btn hide-btn" id="edit-btn">Edit Task</button>
+      </div>
+
+      <div class="wrapper tasks">
+        <div class="taskContainer">
+          <label for="check-box" class="task">
+            <input type="checkbox" id="check-box" />
+            <div class="check-mark-container">
+              <div class="check-mark">
+                <span class="check"></span>
+              </div>
+            </div>
+            <div class="task-text">
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing</span>
+            </div>
+          </label>
+
+          <div class="task-controls">
+            <div class="edit icon">
+              <span> &#x270E; </span>
+            </div>
+
+            <div class="delete icon">
+              <span>&#x1F5D1; </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
